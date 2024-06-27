@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sad"
+version = "0.1.0"
+description = ""
+authors = ["blackwarlow <nikbelom@gmail.com>"]
+license = "Private"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.6"
+djangorestframework = "^3.15.2"
+whitenoise = "^6.7.0"
+django-webpack-loader = "^3.1.0"
+markdown = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.13.2"
+pygls = "^1.3.1"
+lsprotocol = "^2023.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
